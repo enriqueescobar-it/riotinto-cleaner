@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  RiotintoCleanerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: function.lambda_handler
+      Runtime: python3.9
+      CodeUri: s3://s3booker/b256c4c1792066932452ef37ec8c897d
+      Timeout: 10
+      MemorySize: 128
+    Metadata:
+      SamResourceId: RiotintoCleanerFunction

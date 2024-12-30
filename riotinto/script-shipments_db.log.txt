@@ -1,0 +1,21 @@
+data/processed/pace-data_enriched.csv
+pace-data_enriched.csv
+pace-data_enriched .csv
+db/duckdb/
+db/duckdb/shipment_db.duckdb
+Database and table created successfully.
+Index(['MovementDateTime', 'Destination', 'DestinationTidied', 'Speed',
+       'AdditionalInfo', 'CallSign', 'Heading', 'MMSI', 'MovementID',
+       'ShipName', 'ShipType', 'Beam', 'Draught', 'Length', 'MoveStatus',
+       'LadenStatus', 'LRIMOShipNo', 'Latitude', 'Longitude', 'ETA',
+       'BeamRatio'],
+      dtype='object')
+First 2 rows of the shipments table:
+  MovementDateTime Destination  ...   Longitude  BeamRatio
+0       2019-07-20    PATIMBAN  ...  107.444069   0.136752
+1       2019-07-20      LA PAZ  ... -110.331352   0.158537
+
+[2 rows x 21 columns]
+
+Total number of rows in the shipments table:
+174058

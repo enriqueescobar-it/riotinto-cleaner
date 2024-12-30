@@ -1,0 +1,8 @@
+# dev requirements
+
+boto3
+pylint
+coverage
+flake8
+pytest
+pandas
